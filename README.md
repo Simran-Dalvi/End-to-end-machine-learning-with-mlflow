@@ -37,8 +37,10 @@
 1. make the data ingestion .ipynb file in research folder
 2. update the config.yaml in terms of data ingestion (dont need schema or params file yet)
 3. update the __init__.py file in constants (this gives the constant adress/directories/path to follow for data ingestion)
-4. configuration manager in the data_ingestion file itself. not src/config
-5. 
-6. 
-7. 
-8. 
+4. configuration manager in the data_ingestion file itself first.
+5. create config_entity.py in entity file and then update it.
+6. update the configuration.py in config folder
+7. create data_ingestion.py in components and update it
+8. create stage_01.py in pipeline and update it
+9. update main.py
+10. data_ingestion is dont, gitignore the artifacts folder , save everthing, push it and in the terminal run pythom main.py file.

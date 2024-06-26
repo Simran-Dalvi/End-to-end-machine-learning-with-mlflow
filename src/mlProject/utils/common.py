@@ -35,7 +35,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
     except Exception as e:
         raise e
     
-
+ 
 
 @ensure_annotations
 def create_directories(path_to_directories: list, verbose=True):
