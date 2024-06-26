@@ -37,7 +37,7 @@
 1. make the data ingestion .ipynb file in research folder
 2. update the config.yaml in terms of data ingestion (dont need schema or params file yet)
 3. update the __init__.py file in constants (this gives the constant adress/directories/path to follow for data ingestion)
-4. configuration manager in the data_ingestion file itself
+4. configuration manager in the data_ingestion file itself. not src/config
 5. 
 6. 
 7. 
